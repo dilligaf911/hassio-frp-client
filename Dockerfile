@@ -18,4 +18,4 @@ RUN chmod a+x /configure.sh
 RUN /configure.sh $BUILD_ARCH $FRP_VERSION
 RUN rm -rf /configure.sh
 
-CMD [ "/run.sh" ]
+RUN [ "/run.sh" ]
